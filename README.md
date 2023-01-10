@@ -10,9 +10,9 @@ The environment needs to be added as a kernel to Jupyter. Hence, still in the ro
 
 ```bash
 # Activate conda environment
-conda activate
+conda activate ./env
 # Create IPython kernel
-ipykernel install —user —name=<any name you like>
+python -m ipykernel install --user --name=<any name you like>
 ```
 
 A kernel with the name you have chosen should now be available in Jupyter. You might have to restart Jupyter first.
